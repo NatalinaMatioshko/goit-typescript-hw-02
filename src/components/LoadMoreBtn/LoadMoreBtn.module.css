@@ -1,0 +1,20 @@
+.btn {
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: 0.5px solid #ebedee;
+  box-shadow: 0px 10px 20px -10px #3d3d3d;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  align-self: center;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: lightpink;
+  border: none;
+}
